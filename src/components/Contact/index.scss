@@ -1,0 +1,154 @@
+@import '~loaders.css/src/animations/pacman.scss';
+@font-face {
+    font-family: Helvetica-neu;
+    src: url('../../assets/fonts/helvetica-neu.ttf') format('ttf');
+  }
+  @font-face{font-family: La bella Aurore;
+    src: url('../../assets/fonts/La-bella-Aurore.ttf') format('ttf');
+  }
+    
+    @font-face{
+        font-family: Coolvetica;
+    src: url('../../assets/fonts/Coolvetica.ttf') format('ttf');
+  }
+.contact-form{
+    width: 100%;
+    margin-top: -30px;
+    padding-top: 30px;
+
+    ul{
+        padding: 0;
+        margin-top: 0;
+
+        li{
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            margin-bottom: 10px;
+            overflow: hidden;
+            display: block;
+            position: relative;
+            opacity: 0;
+            animation: fadeInUp 2s 2s;
+            animation-fill-mode: forwards;
+            clear: both;
+        }
+
+        li.half{
+            width: 49%;
+            margin-left: 2%;
+            float: left;
+            clear: none;
+
+            &:first-child{
+                margin-left: 0;
+            }
+        }
+    }
+
+    input[type='text'],
+    input[type='email'] {
+
+        width: 100%;
+        border:0;
+        background: #115173;
+        height: 40px;
+        font-size: 16px;
+        color: #fff;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+
+    textarea{
+        width: 100%;
+        border: 0;
+        background: #115173;
+        height: 20px;
+        font-size: 16px;
+        color: #fff;
+        padding: 20px;
+        box-sizing: border-box;
+        min-height: 70px;
+
+    }
+
+    .flat-button{
+        color: #ffd700;
+        background: 0 0;
+        font: 11px;
+        letter-spacing: 3px;
+        text-decoration: none;
+        padding: 8px 10px;
+        border: 1px solid #ffd700;
+        float: right;
+        border-radius: 4px;
+
+        &:hover{
+            background:#ffd700;
+            color: #333;
+        }
+
+        
+    }
+}
+
+.info-map{
+    position: absolute;
+    background-color: #000;
+    top: 35%;
+    right: 29.1%;
+    z-index: 999999;
+    width: 267px;
+    padding: 20px;
+    color: #fff;
+    font-family: Helvetica-neue;
+    font-size: 17px;
+    font-weight: 300;
+    opacity: 0;
+    animation: fadeIn 1s 1.5s;
+    animation-fill-mode: forwards;
+
+    span{
+        font-size: 16px;
+        display: block;
+        padding-top: 20px;
+        color: #ffd700;
+    }
+
+}
+
+.map-wrap{
+    background: rgba(8, 253, 216, 0.1);
+    float: right;
+    width: 53%;
+    height: 60% ;
+    margin-top: 10%;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 0px;
+      
+}
+
+.leaflet-container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    opacity: 0;
+    animation: backInRight 1s 1.2s;
+    animation-fill-mode: forwards;
+}
+
+.loader-active{
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    width: 50px;
+    height: 50px;
+    animation: fadeOut 1s 1s;
+    animation-fill-mode: forwards;
+  
+   }

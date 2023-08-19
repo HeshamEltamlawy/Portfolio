@@ -1,0 +1,32 @@
+html{
+  font-size: 62.5%;
+}
+
+@font-face {
+  font-family: Helvetica-neu;
+  src: url('./assets/fonts/helvetica-neu.ttf') format('ttf');
+}
+@font-face{font-family: La Bella Aurore;
+  font-style: italic;
+  font-weight: 700;
+  src: url('./assets/fonts/La-bella-Aurore.ttf') format('ttf');
+  font-display: swap;
+}
+  
+  @font-face{
+      font-family: Coolvetica;
+  src: url('./assets/fonts/Coolvetica.ttf') format('ttf');
+}
+
+body {
+  margin: 0;
+  font: 300 11px/1.4  'Helvetica Neue','sans-serif';
+  color:#444;
+  background-color: #022c43;
+  overflow: hidden;
+  display: block;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ 
