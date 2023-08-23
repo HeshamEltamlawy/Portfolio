@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.4fb7dcea.css",
+    "main.js": "/Portfolio/static/js/main.237bd446.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Coolvetica.ttf": "/Portfolio/static/media/Coolvetica.42f59941755a61fca2d0.ttf",
+    "static/media/helvetica-neu.ttf": "/Portfolio/static/media/helvetica-neu.7999cc3419aa06b10394.ttf",
+    "static/media/La-bella-Aurore.ttf": "/Portfolio/static/media/La-bella-Aurore.6cb99b09fb1d18344c2a.ttf",
+    "static/media/logo-social.jpg": "/Portfolio/static/media/logo-social.6c8f24c1fc115fa20d65.jpg",
+    "index.html": "/Portfolio/index.html",
+    "static/media/App.SCSS": "/Portfolio/static/media/App.1042880a3c1e1226b0d7.SCSS",
+    "main.4fb7dcea.css.map": "/Portfolio/static/css/main.4fb7dcea.css.map",
+    "main.237bd446.js.map": "/Portfolio/static/js/main.237bd446.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4fb7dcea.css",
+    "static/js/main.237bd446.js"
+  ]
+}
